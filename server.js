@@ -17,6 +17,6 @@ app.get('/:time/*', (req, res) => {
     res.redirect(404, '/');
 })
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log(`Server running on port ${port}`);
 });
